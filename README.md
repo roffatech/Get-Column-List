@@ -11,4 +11,4 @@ I intend to setup the code in this repository in the form of a script that you c
 
 In a nutshell, the code builds a list of columns for the table provided using the sys.columns and sys.tables meta data tables that define table structure in SQL Server. 
 
-If using the script version of the code, users can run the code in an tool like SSMS, edit the settings for whether or not they want the list indented, to have the names wrapped in brackets, and to have a CR/LF after each column name.
+If using get-column-list-SCRIPT.sql, the script version of the code, users can run the code in an tool like SSMS, edit the settings for whether or not they want the list indented, to have the names wrapped in brackets, and to have a CR/LF after each column name. If running from SSMS, the PRINT statement at the end results in the column list text being shown in a results pane where it can be selected and copied.
