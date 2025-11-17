@@ -31,7 +31,6 @@ SELECT
 		ELSE ''
 	END +
 	A.[name] + 
-	+ 
 	CASE @USE_BRACKETS 
 		WHEN 1 THEN ']'
 		ELSE ''
@@ -73,4 +72,5 @@ DROP TABLE IF EXISTS col_name_table
 -- As it's currently setup, you could run this in SSMS, get the result in text
 -- format and copy it
 PRINT CHAR(13) + CHAR(10)
+
 PRINT @RETURN_STRING 
