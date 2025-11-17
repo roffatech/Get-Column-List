@@ -1,5 +1,5 @@
 # Get-Column-List
-Given a table name, will produce a list of columns for that table. Especially useful in tables with a lot of columns
+Given a table name, will produce a list of columns for that table. Especially useful in tables with a lot of columns. Uses SQL Server meta data tables like sys.columns and sys.tables.
 
 In my work I have often had to deal with tables having many columns. Some are over 80 columns!
 
