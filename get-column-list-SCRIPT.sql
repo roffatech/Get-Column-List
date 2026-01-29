@@ -5,7 +5,7 @@
 DECLARE
 	-- these would be parameters passed into the stored procedure
 	-- if that form of the code was used
-	@TABLE_NAME nvarchar(255) = N'mail_list',
+	@TABLE_NAME nvarchar(255) = N'customers',  -- replace with your table name
 	@USE_INDENT bit = 1,
 	@USE_BRACKETS bit = 1,
 	@USE_COMMA bit = 1,
